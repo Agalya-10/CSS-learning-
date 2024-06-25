@@ -65,7 +65,93 @@ p{
     text-transform: capitalize;
     text-indent: 60px;
     line-height: 30px;
-    
+    }
+p1{
+    font-family: Arial, Helvetica, serif;
+    font-size: 20px;
+    font-style: italic;
 }
-    
-
+   
+.bxl-whatsapp{
+    color: white;
+    background-color:green;
+    font-size: 40px;
+    padding:5px;
+}
+.bxl-instagram{
+    color: white;
+    background-color:orangered;
+    font-size: 40px;
+    padding:5px;
+}
+.bx-music{
+    color: white;
+    background-color:rgb(117, 2, 83);
+    font-size: 40px;
+    padding:5px;
+}
+.button1{
+    color:white;
+    background-color: blue;
+    padding: 15px 20px;
+    text-decoration-line: none;
+}
+.button1:hover{
+    color:black;
+    background-color: rgb(149, 11, 13);
+}
+.button2{
+    border: 3px solid greenyellow;
+    padding: 15px 20px;
+    text-decoration-line: none;
+    border-radius: 25px;
+}
+.button2:hover{
+    color:blue;
+    background-color: orchid;
+}
+.button3{
+    border: 2px solid red;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+}
+.button3:hover{
+    color: aqua;
+    background-color: darkorange;
+}
+ul{
+    list-style: none;
+    background-color:hotpink ;
+    padding: 30px 20px;
+    width: 150px;
+    font-size: 25px;
+}
+ul li{
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+}
+ul li:hover{
+    color:yellow;
+    background-color: green;
+    text-decoration: line;
+}
+table,tr,td,th{
+    border: 1px solid black;
+    border-style: solid;
+    border-collapse: collapse;
+    padding: 5px;
+}
+table{
+    width: 500px;
+    height: auto;
+    text-align: center;
+}
+td{
+    height: 30px;
+    vertical-align: middle;
+}
+tr:nth-child(even){
+    background-color: rgb(234, 255, 0);
+}
