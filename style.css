@@ -139,7 +139,6 @@ ul li:hover{
 }
 table,tr,td,th{
     border: 1px solid black;
-    border-style: solid;
     border-collapse: collapse;
     padding: 5px;
 }
@@ -155,3 +154,119 @@ td{
 tr:nth-child(even){
     background-color: rgb(234, 255, 0);
 }
+tr:hover{
+    background-color: lawngreen;
+
+}
+#block1{
+    background-color: darkgoldenrod;
+    width: 48%;
+    height: 200px;
+    float: right;
+    margin-right: 2%;
+}
+#block2{
+    background-color: rgb(121, 13, 45);
+    width: 48%;
+    height: 200px;
+    float: left;
+    margin-right: 2%;
+}
+#block3{
+    width: 100%;
+    height: 100%;
+    background-color:#1f920d8b;
+    clear: both;
+}
+div p{
+    color: green;
+}
+div>p{
+    color: aqua;
+}
+div+p{
+    color: darkorange;
+}
+div~p{
+    color: hsl(321, 100%, 50%);
+}
+img:hover{
+    opacity: 0.4;
+}
+#sec1{
+    height: 200px;
+    width: 200px;
+    background-color: deeppink;
+}
+#sec1:hover{
+    opacity: 0.5;
+}
+#title{
+    background-color: blue;
+    text-align: center;
+    height: 70px;
+    width: 100%;
+    font-size: 30px;
+    overflow: hidden;
+    }
+    #banner{
+        background-color: rgb(255, 0, 157);
+        text-align: center;
+        height: 100px;
+        width: 100%;
+        font-size: 30px;
+        overflow: hidden;
+        }
+        #intro{
+            background-color: rgb(0, 255, 26);
+            text-align: center;
+            height: 70px;
+            width: 100%;
+            font-size: 30px;
+            overflow: hidden;
+            }
+            #box1{
+                background-color: red;
+                height: 200px;
+                width: 32%;
+                font-size: 100px;
+                float: left;
+                text-align: center;
+                margin-right: 2%;
+            }
+            #box2{
+                background-color: rgb(255, 247, 0);
+                height: 200px;
+                width: 32%;
+                font-size: 100px;
+                float: left;
+                text-align: center;
+                margin-right: 2%;
+            }
+            #box3{
+                background-color: rgb(0, 140, 255);
+                height: 200px;
+                width: 32%;
+                font-size: 100px;
+                float: right;
+                text-align: center;
+            }
+            #last{
+                background-color: rgb(111, 130, 0);
+                height: 100px;
+                width: 100%;
+                font-size: 50px;
+                clear: both;
+                text-align: center;
+            }
+            .para{
+                outline: 1px;
+                outline-offset: 1px;
+                outline-color: blue;
+            }
+        
+        
+        
+    
+
+
